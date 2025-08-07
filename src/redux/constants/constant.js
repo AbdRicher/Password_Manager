@@ -1,0 +1,2 @@
+export const STOREGMAIL = "STOREGMAIL";
+export const STOREUSERNAME = "STOREUSERNAME";

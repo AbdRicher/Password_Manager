@@ -9,7 +9,7 @@ const password = () => {
       const getemail = Cookies.get('userEmail');
     const [passwords, setPasswords] = useState([]);
     const [loading, setLoading] = useState(true);
-
+const [Alert, setAlert] = useState({visible: false, message: '', type: ''})
       useEffect(() => {
     if (getemail && getusername) {
       setIsLoggedIn(true);
